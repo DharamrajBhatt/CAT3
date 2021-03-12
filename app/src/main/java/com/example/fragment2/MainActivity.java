@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String hilltopid = "hilltop";
-                String details = "9.00 Registration\n " +
-                        "9.30 Keynote\n" +
-                        "10.00 Introduction\n" +
-                        "11.00 Hand on Lab\n" +
-                        "12.30 Lunch\n" +
-                        "3.00 High Tea Networking\n";
+                String details = "09.00 ->Registration\n " +
+                        "09.30  ->Keynote\n" +
+                        "10.00 ->Introduction\n" +
+                        "11.00 ->Hand on Lab\n" +
+                        "12.30 ->Lunch\n" +
+                        "03.00 ->High Tea Networking\n";
                 PACKAGE_NAME = getApplicationContext().getPackageName();
                 int resID = getResources().getIdentifier(hilltopid , "drawable",PACKAGE_NAME) ;
                 openfragment(resID,hilltop,details);
@@ -55,12 +55,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String gardenid = "garden";
-                String details = "9.00 Registration\n " +
-                        "9.30 Keynote\n" +
-                        "10.00 Introduction\n" +
-                        "11.00 Hand on Lab\n" +
-                        "12.30 Lunch\n" +
-                        "3.00 High Tea Networking\n";
+                String details = "09.00 ->Registration\n " +
+                        "9.30 ->Keynote\n" +
+                        "10.00 ->Introduction\n" +
+                        "11.00 ->Hand on Lab\n" +
+                        "12.30 ->Lunch\n" +
+                        "03.00 ->High Tea Networking\n";
                 PACKAGE_NAME = getApplicationContext().getPackageName();
                 int resID = getResources().getIdentifier(gardenid , "drawable",PACKAGE_NAME) ;
                 openfragment(resID,garden,details);
@@ -70,12 +70,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String hilltopid = "villa";
-                String details = "9.00 Registration\n " +
-                        "9.30 Keynote\n" +
-                        "10.00 Introduction\n" +
-                        "11.00 Hand on Lab\n" +
-                        "12.30 Lunch\n" +
-                        "3.00 High Tea Networking\n";
+                String details = "09.00 ->Registration\n " +
+                        "09.30 ->Keynote\n" +
+                        "10.00 ->Introduction\n" +
+                        "11.00 ->Hand on Lab\n" +
+                        "12.30 ->Lunch\n" +
+                        "03.00 ->High Tea Networking\n";
                 PACKAGE_NAME = getApplicationContext().getPackageName();
                 int resID = getResources().getIdentifier(hilltopid , "drawable",PACKAGE_NAME) ;
                 openfragment(resID,villa,details);
@@ -85,12 +85,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String hilltopid = "grand";
-                String details = "9.00 Registration\n " +
-                        "9.30 Keynote\n" +
-                        "10.00 Introduction\n" +
-                        "11.00 Hand on Lab\n" +
-                        "12.30 Lunch\n" +
-                        "3.00 High Tea Networking\n";
+                String details = "09.00 ->Registration\n " +
+                        "09.30 ->Keynote\n" +
+                        "10.00 ->Introduction\n" +
+                        "11.00 ->Hand on Lab\n" +
+                        "12.30 ->Lunch\n" +
+                        "03.00 ->High Tea Networking\n";
                 PACKAGE_NAME = getApplicationContext().getPackageName();
                 int resID = getResources().getIdentifier(hilltopid , "drawable",PACKAGE_NAME) ;
                 openfragment(resID,grand,details);

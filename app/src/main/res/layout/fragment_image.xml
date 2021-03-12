@@ -23,14 +23,15 @@
         android:layout_marginEnd="58dp"
         android:layout_marginRight="58dp"
         android:layout_marginBottom="392dp"
-        android:text="Venue Details :"
-        android:textColor="#0D73D8"
+        android:gravity="center"
+        android:text="Venue Details "
+        android:textColor="#0721AC"
         android:textSize="36sp" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="318dp"
-        android:layout_height="251dp"
+        android:layout_width="356dp"
+        android:layout_height="248dp"
         android:layout_marginStart="55dp"
         android:layout_marginLeft="65dp"
         android:layout_marginEnd="54dp"
@@ -44,11 +45,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="42dp"
         android:layout_marginLeft="65dp"
+        android:layout_marginEnd="42dp"
         android:layout_marginRight="42dp"
         android:layout_marginBottom="19dp"
-        android:textColor="#E14F88"
-        android:textSize="30sp" />
+        android:textColor="#050505"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif-light" />
 
 </RelativeLayout>
